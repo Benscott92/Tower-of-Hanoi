@@ -1,0 +1,66 @@
+body{
+    background: rgba(218, 165, 32, 0.205);
+    text-align: center;
+}
+
+main{
+    display: flex;
+}
+.tower{
+    display: flex;  
+    flex-direction: column-reverse;  
+    align-items: center;
+    width: 33%;
+    margin: 3px;
+    border-radius: 5px;
+}
+#first{
+    background-color: rgba(222, 184, 135, 0.781);
+    background-image: url(./assets/imageedit_2_8715598590.png) ;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+#second{
+    background: rgba(0, 128, 0, 0.377);
+    height: 350px;
+    background-image: url(./assets/imageedit_2_8715598590.png) ;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
+#third{
+    background:rgba(0, 0, 255, 0.404);
+    height: 350px;
+    background-image: url(./assets/imageedit_2_8715598590.png) ;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
+.block1{
+    width: 400px;
+    height: 50px;
+    background: purple;
+    border-radius: 15px;
+    border: 3px solid forestgreen;
+}
+.block2{
+    width: 325px;
+    height: 50px;
+    background: white;
+    border-radius: 15px;
+    border: 3px solid forestgreen;
+}
+.block3{
+    width: 250px;
+    height: 50px;
+    background: grey;
+    border-radius: 15px;
+    border: 3px solid forestgreen;
+}
+.block4{
+    width: 175px;
+    height: 50px;
+    background: black;
+    border-radius: 15px;
+    border: 3px solid forestgreen;
+}
